@@ -1,0 +1,13 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-style: none none solid none;
+  display: flex;
+}
+
+.logo {
+  padding: 2px 10px 2px 30px;
+  color: MediumaAquamarine;
+}
