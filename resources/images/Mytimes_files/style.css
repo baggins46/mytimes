@@ -18,23 +18,14 @@
 
 .header span {
   color: MediumAquamarine;
-  display: flex;
+  display: inline-block;
 }
 
-.header li {
-  list-style: none;
-  display: inline-block;
-  padding: 5px;
-  }
-
-ul {
-  margin-right: 30px;
+.header ul {
+  display: inline-flex;
 }
 
 a {
   color: black;
-}
-
-span {
-  flex-grow: 1;
+  padding: 10px;
 }
