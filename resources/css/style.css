@@ -4,11 +4,14 @@
   font-weight: bold;
   border: 1px solid black;
   border-style: none none solid none;
+  background-color: white;
   display: flex;
   height: 100px;
   width: 100%;
-  position: fixed;
   align-items: center;
+  z-index: 1;
+  <!-- position:fixed; -->
+
 }
 
 .header img {
@@ -37,4 +40,41 @@ a {
 
 span {
   flex-grow: 1;
+}
+
+.articles {
+ display: flex;
+}
+
+.column_large {
+  width: 630px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+ .article_1 {
+  border: 1px solid black;
+  display: block;
+}
+
+.article_2 {
+  border: 1px solid black;
+  display: block;
+}
+
+.article_3 {
+  border: 1px solid black;
+  display: block;
+
+.column_medium {
+  width: 300px;
+  border: 1px solid blue;
+}
+
+}
+
+.column_small{
+  width: 200px
+  border: 1px solid red;
 }
