@@ -43,61 +43,49 @@ span {
 }
 
 .articles {
- display: inline-flex;
  border: 1px solid black;
  padding-top: 100px;
+ display: flex;
 }
 
-.column_large {
+.large {
   width: 630px;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
+  border: 5px solid blue;
   margin: 30px 30px 0px 0px;
+  display: inline-block;
 
 }
 
- .article_1 {
-  border: 1px solid black;
+.medium {
+  width: 300px;
+
+  border: 1px solid red;
+  background: red;
+  margin: 30px 30px 0px 0px;
 }
 
-.article_2 {
-  border: 1px solid black;
-  width: ;
+.small {
+  width: 240px;
+  border: 1px solid green;
+  background: green;
+  margin: 30px 30px 0px 0px;
+}
+
+.large_header_image {
+  height: 300px;
+  width: 630px;
+  background-image: url(/Users/benwatts/Documents/projects/mytimes/resources/images/img-story-main.png)
+
+}
+
+.large_header_image, h1 {
+  font-family: Georgia;
+  font-size: 50px;
+  color: white;
+
 }
 
 .article_2_footer {
-  border: 1px solid black;
-  width: ;
-}
+  background-image: url(/Users/benwatts/Documents/projects/mytimes/resources/images/img-story-2.png)
 
-.article_3 {
-  border: 1px solid black;
-  width: ;
-}
-
-.article_3_footer {
-  border: 1px solid black;
-}
-
-.column_medium {
-  width: 300px;
-  border: 1px solid blue;
-}
-
-.article_4 {
-  border: 1px solid black;
-}
-
-.article_5 {
-    border: 1px solid black;
-}
-
-.column_small {
-  width: 240px
-  border: 1px solid blue;
-}
-
-.article_6 {
-  border: 1px solid black;
 }
