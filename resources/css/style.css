@@ -74,7 +74,7 @@ span {
 .large_header_image {
   height: 300px;
   width: 630px;
-  background-image: url(./resources/images/img-story-main.png)
+  background-image: url(/resources/images/img-story-main.png)
 
 }
 
@@ -86,6 +86,6 @@ span {
 }
 
 .article_2_footer {
-  background-image: url(./resources/images/img-story-2.png)
+  background-image: url(/resources/images/img-story-2.png)
 
 }
